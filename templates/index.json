@@ -67,11 +67,23 @@
           "settings": {
             "content": "<h5>Eleifa est une marque de vêtements dédiée à la mode pudique pour les femmes musulmanes. </h5><h5></h5><h5>Elle se distingue par ses créations alliant élégance et modernité, respectant les principes de modestie tout en restant tendance.</h5>"
           }
+        },
+        "button_LMjTEC": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "size": "lg",
+            "text": "Découvre la collection",
+            "url": "",
+            "background": "#d6c8b9",
+            "text_color": "#d6c8b9"
+          }
         }
       },
       "block_order": [
         "heading_gQrtVD",
-        "richtext_DcWHRd"
+        "richtext_DcWHRd",
+        "button_LMjTEC"
       ],
       "name": "Rich text",
       "settings": {
