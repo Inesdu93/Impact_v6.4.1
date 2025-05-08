@@ -21,11 +21,11 @@
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
             "title": "",
-            "heading_tag": "h5",
+            "heading_tag": "h4",
             "button_text": "",
             "button_link": "",
             "text_color": "#ffffff",
-            "button_background": "#ffffff",
+            "button_background": "rgba(0,0,0,0)",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
             "overlay_opacity": 29,
@@ -57,7 +57,7 @@
           "type": "heading",
           "settings": {
             "text": "La pudeur embellit l’ame",
-            "heading_tag": "h3",
+            "heading_tag": "h4",
             "text_color": "",
             "gradient": ""
           }
@@ -65,7 +65,7 @@
         "richtext_DcWHRd": {
           "type": "richtext",
           "settings": {
-            "content": "<h5>Eleifa est une marque de vêtements dédiée à la mode pudique pour les femmes musulmanes. </h5><h5></h5><h5>Elle se distingue par ses créations alliant élégance et modernité, respectant les principes de modestie tout en restant tendance.</h5>"
+            "content": "<h6>Eleifa est une marque de vêtements dédiée à la mode pudique pour les femmes musulmanes. </h6><h6></h6><h6>Elle se distingue par ses créations alliant élégance et modernité, respectant les principes de modestie tout en restant tendance.</h6>"
           }
         },
         "button_LMjTEC": {
@@ -223,6 +223,7 @@
         "e4a0ef18-1856-4ddd-83d8-871a60d7acac",
         "item_gdhfAg"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "block_size": "medium",
@@ -769,6 +770,121 @@
         "accordion_background": "",
         "accordion_text_color": ""
       }
+    },
+    "shop_the_look_Dc8Uyj": {
+      "type": "shop-the-look",
+      "blocks": {
+        "product_8cf8Bn": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "horizontal_position": 52,
+            "vertical_position": 25
+          }
+        },
+        "product_b6n4zb": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "horizontal_position": 75,
+            "vertical_position": 53
+          }
+        },
+        "product_6zXwHG": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "horizontal_position": 33,
+            "vertical_position": 73
+          }
+        }
+      },
+      "block_order": [
+        "product_8cf8Bn",
+        "product_b6n4zb",
+        "product_6zXwHG"
+      ],
+      "name": "Shop the look",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "title": "Shop the look",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "product_card_mobile_background": "",
+        "product_card_mobile_text_color": "",
+        "background_dots": "#FFF"
+      }
+    },
+    "rich_text_wXXR9e": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_KWtq8W": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_WfGP7K": {
+          "type": "heading",
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_Jyf6Aw": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "button_Tzq4Lr": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Site francais",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "button_7GgU4H": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Site Algerie",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_KWtq8W",
+        "heading_WfGP7K",
+        "richtext_Jyf6Aw",
+        "button_Tzq4Lr",
+        "button_7GgU4H"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -785,6 +901,8 @@
     "hot-spots",
     "multiple-images-with-text",
     "featured-product",
-    "faq"
+    "faq",
+    "shop_the_look_Dc8Uyj",
+    "rich_text_wXXR9e"
   ]
 }
