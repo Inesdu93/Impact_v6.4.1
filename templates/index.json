@@ -74,7 +74,7 @@
             "style": "outline",
             "size": "lg",
             "text": "Découvre la collection",
-            "url": "",
+            "url": "shopify://products/abaya-salat",
             "background": "#d6c8b9",
             "text_color": "#d6c8b9"
           }
@@ -101,12 +101,13 @@
         "1664424230c4756b0e-1": {
           "type": "heading",
           "settings": {
-            "text": "[Eleifa] arabic Def : La pudeur de l’âme",
+            "text": "Eleifa  : La pudeur de l’âme",
             "heading_tag": "h3"
           }
         },
         "1664424230c4756b0e-0": {
           "type": "subheading",
+          "disabled": true,
           "settings": {
             "text": "Nom féminin"
           }
