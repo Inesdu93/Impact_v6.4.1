@@ -258,41 +258,6 @@
         "product_card_text_color": ""
       }
     },
-    "impact-text": {
-      "type": "impact-text",
-      "blocks": {
-        "1664424181b38582d5-0": {
-          "type": "item",
-          "settings": {
-            "title": "100%",
-            "subheading": "Showcase a benefit of your product",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": false,
-            "animate_impact_text_duration": 2
-          }
-        }
-      },
-      "block_order": [
-        "1664424181b38582d5-0"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_mobile": true,
-        "text_alignment": "center",
-        "impact_text_style": "fill",
-        "text_divider": "none",
-        "impact_text_size_ratio": 1,
-        "background": "",
-        "background_gradient": "",
-        "heading_text_color": "",
-        "heading_gradient": "linear-gradient(180deg, rgba(26, 26, 26, 0.2), rgba(26, 26, 26, 0) 100%)",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
-    },
     "image-with-text-overlay": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -756,6 +721,46 @@
         "accordion_background": "",
         "accordion_text_color": ""
       }
+    },
+    "rich_text_War6pq": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_wxKDTr": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_gQrtVD": {
+          "type": "heading",
+          "settings": {
+            "text": "La pudeur embellit l’ame",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_DcWHRd": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>Eleifa est une marque de vêtements dédiée à la mode pudique pour les femmes musulmanes. </h5><h5></h5><h5>Elle se distingue par ses créations alliant élégance et modernité, respectant les principes de modestie tout en restant tendance.</h5>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_wxKDTr",
+        "heading_gQrtVD",
+        "richtext_DcWHRd"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -764,7 +769,6 @@
     "scrolling-text",
     "collection-list",
     "featured-collection",
-    "impact-text",
     "image-with-text-overlay",
     "media-grid",
     "before-after-image",
@@ -772,6 +776,7 @@
     "hot-spots",
     "multiple-images-with-text",
     "featured-product",
-    "faq"
+    "faq",
+    "rich_text_War6pq"
   ]
 }
