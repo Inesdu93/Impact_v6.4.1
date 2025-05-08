@@ -95,6 +95,47 @@
         "text_color": ""
       }
     },
+    "image-with-text-overlay": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "1664424230c4756b0e-1": {
+          "type": "heading",
+          "settings": {
+            "text": "[Eleifa] arabic Def : La pudeur de l’âme",
+            "heading_tag": "h3"
+          }
+        },
+        "1664424230c4756b0e-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "Nom féminin"
+          }
+        },
+        "1664424230c4756b0e-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Elle désigne un sentiment de réserve, de modestie et de respect de soi, et elle est considérée comme une qualité vertueuse que chaque musulman et chaque musulmane est encouragé(e) à cultiver. </p><p></p><p></p><p>Ce principe s'applique à de nombreux aspects de la vie, notamment les comportements, la tenue vestimentaire, et les interactions sociales.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "1664424230c4756b0e-1",
+        "1664424230c4756b0e-0",
+        "1664424230c4756b0e-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/295A8992.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "image-link-blocks": {
       "type": "image-link-blocks",
       "blocks": {
@@ -303,47 +344,6 @@
         "heading_gradient": "",
         "product_card_background": "",
         "product_card_text_color": ""
-      }
-    },
-    "image-with-text-overlay": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "1664424230c4756b0e-0": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        "1664424230c4756b0e-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Image with text overlay",
-            "heading_tag": "h1"
-          }
-        },
-        "1664424230c4756b0e-2": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "1664424230c4756b0e-0",
-        "1664424230c4756b0e-1",
-        "1664424230c4756b0e-2"
-      ],
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/295A8992.jpg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
       }
     },
     "media-grid": {
@@ -773,11 +773,11 @@
   "order": [
     "slideshow",
     "rich_text_War6pq",
+    "image-with-text-overlay",
     "image-link-blocks",
     "scrolling-text",
     "collection-list",
     "featured-collection",
-    "image-with-text-overlay",
     "media-grid",
     "before-after-image",
     "press",
