@@ -57,26 +57,26 @@
           "type": "heading",
           "settings": {
             "text": "La pudeur embellit l’ame",
-            "heading_tag": "h4",
-            "text_color": "",
+            "heading_tag": "h6",
+            "text_color": "#d6c8b9",
             "gradient": ""
           }
         },
         "richtext_DcWHRd": {
           "type": "richtext",
           "settings": {
-            "content": "<h6>Eleifa est une marque de vêtements dédiée à la mode pudique pour les femmes musulmanes. </h6><h6></h6><h6>Elle se distingue par ses créations alliant élégance et modernité, respectant les principes de modestie tout en restant tendance.</h6>"
+            "content": "<p>Eleifa est une marque de vêtements dédiée à la mode pudique pour les femmes musulmanes. </p><p></p><p>Elle se distingue par ses créations alliant élégance et modernité, respectant les principes de modestie tout en restant tendance.</p>"
           }
         },
         "button_LMjTEC": {
           "type": "button",
           "settings": {
-            "style": "outline",
+            "style": "fill",
             "size": "lg",
             "text": "Découvre la collection",
             "url": "shopify://products/abaya-salat",
             "background": "#d6c8b9",
-            "text_color": "#d6c8b9"
+            "text_color": "#ffffff"
           }
         }
       },
