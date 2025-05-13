@@ -705,6 +705,22 @@
             "vertical_position": 30
           }
         },
+        "product_QzByHp": {
+          "type": "product",
+          "settings": {
+            "product": "a29",
+            "horizontal_position": 81,
+            "vertical_position": 66
+          }
+        },
+        "product_dVd9MU": {
+          "type": "product",
+          "settings": {
+            "product": "a23",
+            "horizontal_position": 74,
+            "vertical_position": 37
+          }
+        },
         "product_6zXwHG": {
           "type": "product",
           "settings": {
@@ -716,6 +732,8 @@
       },
       "block_order": [
         "product_xzDUwt",
+        "product_QzByHp",
+        "product_dVd9MU",
         "product_6zXwHG"
       ],
       "name": "Shop the look",
@@ -723,7 +741,7 @@
         "full_width": true,
         "stack_mobile": true,
         "image": "shopify://shop_images/PHOTO-2025-01-19-17-44-23_4.jpg",
-        "title": "Shop the look",
+        "title": "Discover new fragrance",
         "content": "",
         "background": "",
         "background_gradient": "",
