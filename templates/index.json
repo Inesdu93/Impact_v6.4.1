@@ -50,40 +50,36 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
-    "rich_text_War6pq": {
+    "rich_text_BdkTj7": {
       "type": "rich-text",
       "blocks": {
-        "heading_gQrtVD": {
+        "subheading_UWJKJA": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_Bhf8Rq": {
           "type": "heading",
           "settings": {
-            "text": "La pudeur embellit l’ame",
-            "heading_tag": "h6",
-            "text_color": "#d6c8b9",
+            "text": "Indulge in our creations and find the fragrance that defines your essence.",
+            "heading_tag": "h2",
+            "text_color": "",
             "gradient": ""
           }
         },
-        "richtext_DcWHRd": {
+        "richtext_ANEwUm": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Eleifa est une marque de vêtements dédiée à la mode pudique pour les femmes musulmanes. </p><p></p><p>Elle se distingue par ses créations alliant élégance et modernité, respectant les principes de modestie tout en restant tendance.</p>"
-          }
-        },
-        "button_LMjTEC": {
-          "type": "button",
-          "settings": {
-            "style": "fill",
-            "size": "lg",
-            "text": "Découvre la collection",
-            "url": "shopify://products/abaya-salat",
-            "background": "#d6c8b9",
-            "text_color": "#ffffff"
+            "content": "<p>Symphonies of scents, each crafted to reflect your essencewhere French savoir-faire meets deep emotions and sensory delights.</p><p></p><p> Let each fragrance awaken your senses, evoking timeless beauty and profoundly personal experiences.</p>"
           }
         }
       },
       "block_order": [
-        "heading_gQrtVD",
-        "richtext_DcWHRd",
-        "button_LMjTEC"
+        "subheading_UWJKJA",
+        "heading_Bhf8Rq",
+        "richtext_ANEwUm"
       ],
       "name": "Rich text",
       "settings": {
@@ -257,7 +253,7 @@
         "collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "body-mist",
             "subheading": "",
             "title": "",
             "url": "",
@@ -271,7 +267,7 @@
         "collection-2": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "home-spray",
             "subheading": "",
             "title": "",
             "url": "",
@@ -285,7 +281,7 @@
         "collection-3": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "hair-spray",
             "subheading": "",
             "title": "",
             "url": "",
@@ -700,7 +696,7 @@
       ],
       "settings": {
         "full_width": false,
-        "product": "",
+        "product": "a1",
         "desktop_media_width": 55,
         "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "expanded",
@@ -819,74 +815,72 @@
         "background_dots": "#ffffff"
       }
     },
-    "rich_text_wXXR9e": {
-      "type": "rich-text",
+    "images_with_text_scrolling_HRXDrw": {
+      "type": "images-with-text-scrolling",
       "blocks": {
-        "subheading_KWtq8W": {
-          "type": "subheading",
+        "item_CfBHh8": {
+          "type": "item",
           "settings": {
-            "text": "Subheading"
-          }
-        },
-        "heading_WfGP7K": {
-          "type": "heading",
-          "settings": {
-            "text": "Heading",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_Jyf6Aw": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "button_Tzq4Lr": {
-          "type": "button",
-          "settings": {
-            "style": "fill",
-            "size": "xl",
-            "text": "Site francais",
-            "url": "",
-            "background": "",
-            "text_color": ""
-          }
-        },
-        "button_7GgU4H": {
-          "type": "button",
-          "settings": {
-            "style": "fill",
-            "size": "xl",
-            "text": "Site Algerie",
-            "url": "",
-            "background": "",
-            "text_color": ""
+            "image": "shopify://shop_images/Design_sans_titre_17.png",
+            "icon": "none",
+            "icon_width": 32,
+            "title": "A Legacy of Uniqueness in Every Bottle",
+            "content": "<p>At the core of our exclusive perfume brand lies the essence of timeless craftsmanship a legacy of over 40 years, where artistry meets precision.</p><p>Each fragrance embodies this unique expertise, with every note carefully selected and each bottle taking 7 hours to craft, making every piece a one-of-a-kind creation.</p>"
           }
         }
       },
       "block_order": [
-        "subheading_KWtq8W",
-        "heading_WfGP7K",
-        "richtext_Jyf6Aw",
-        "button_Tzq4Lr",
-        "button_7GgU4H"
+        "item_CfBHh8"
       ],
-      "name": "Rich text",
+      "name": "Images and text scrolling",
       "settings": {
         "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
+        "stack_on_mobile": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
         "background": "",
         "background_gradient": "",
-        "text_color": ""
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "multiple_images_with_text_cfFAzV": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_MQUFNY": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/PHOTO-2025-01-19-17-44-17_8aa91d28-3cd7-43d4-8872-207f69024c9e.jpg",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "Signature Pieces",
+            "content": "<p>Each piece tells a story a whisper of beauty, a gesture of intention. In the delicate balance between aesthetics and meaning, every creation becomes a quiet companion on your path.And in a world overflowing with allure, choosing becomes a journey not of impulse, but of intuition. </p><p>Here, we’ve gathered our most beloved creations timeless icons admired for their refined design and celebrated for their soulful craftsmanship. Each one holds the essence of what it means to choose with care.Take a moment. Your next signature piece may be waiting quietly, just for you.</p>",
+            "button_url": "",
+            "button_text": "Discover Our Best Sellers"
+          }
+        }
+      },
+      "block_order": [
+        "item_MQUFNY"
+      ],
+      "name": "Multiple images with text",
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
       }
     }
   },
   "order": [
     "slideshow",
-    "rich_text_War6pq",
+    "rich_text_BdkTj7",
     "image-with-text-overlay",
     "image-link-blocks",
     "scrolling-text",
@@ -900,6 +894,7 @@
     "featured-product",
     "faq",
     "shop_the_look_Dc8Uyj",
-    "rich_text_wXXR9e"
+    "images_with_text_scrolling_HRXDrw",
+    "multiple_images_with_text_cfFAzV"
   ]
 }
