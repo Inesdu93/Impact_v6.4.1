@@ -41,7 +41,7 @@
     "header": {
       "type": "header",
       "settings": {
-        "enable_sticky": true,
+        "enable_sticky": false,
         "hide_on_scroll": true,
         "logo": "shopify://shop_images/5cddbd0b81af640935b4730aae631c6d.png",
         "logo_max_width": 125,
