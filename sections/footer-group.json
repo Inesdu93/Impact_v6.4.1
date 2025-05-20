@@ -100,7 +100,6 @@
         },
         "text": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "title": "Follow us",
             "content": "<p>Instagram<br/>Facebook</p>",
