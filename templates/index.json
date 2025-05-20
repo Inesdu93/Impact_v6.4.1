@@ -240,28 +240,14 @@
         "heading_gradient": ""
       }
     },
-    "scrolling-text": {
-      "type": "scrolling-text",
-      "settings": {
-        "full_width": true,
-        "text": "LIVRAISON EN ALGERIE ET EN FRANCE",
-        "text_size": "xsmall",
-        "text_style": "fill",
-        "scrolling_mode": "auto",
-        "scrolling_speed": 5,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "text_gradient": ""
-      }
-    },
     "collection-list": {
       "type": "collection-list",
       "blocks": {
         "collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "emna",
+            "image": "shopify://shop_images/11.png",
             "subheading": "",
             "title": "",
             "url": "",
@@ -275,7 +261,8 @@
         "collection-2": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "laya",
+            "image": "shopify://shop_images/6_7fd23741-c2e5-4da8-8f57-c9de56062a69.png",
             "subheading": "",
             "title": "",
             "url": "",
@@ -290,6 +277,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify://shop_images/21.png",
             "subheading": "",
             "title": "",
             "url": "",
@@ -450,6 +438,21 @@
         "mobile_row_height": 150,
         "background": "",
         "background_gradient": ""
+      }
+    },
+    "scrolling-text": {
+      "type": "scrolling-text",
+      "settings": {
+        "full_width": true,
+        "text": "LIVRAISON EN ALGERIE ET EN FRANCE",
+        "text_size": "xsmall",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 5,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "text_gradient": ""
       }
     },
     "before-after-image": {
