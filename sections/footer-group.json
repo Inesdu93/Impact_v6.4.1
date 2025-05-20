@@ -102,7 +102,7 @@
           "type": "text",
           "settings": {
             "title": "Follow us",
-            "content": "<p>Instagram<br/>Facebook</p>",
+            "content": "<p><a href=\"https://www.instagram.com/mouniaparis\" title=\"https://www.instagram.com/mouniaparis\">Instagram</a><br/><a href=\"https://www.facebook.com/p/Mounia-Paris-100041893283221/\" title=\"https://www.facebook.com/p/Mounia-Paris-100041893283221/\">Facebook</a></p><p></p>",
             "enable_follow_on_shop": true
           }
         },
