@@ -98,14 +98,6 @@
             "enable_follow_on_shop": true
           }
         },
-        "links": {
-          "type": "links",
-          "settings": {
-            "menu": "footer",
-            "show_menu_title": true,
-            "menu_title": ""
-          }
-        },
         "text_zNi6Gq": {
           "type": "text",
           "settings": {
@@ -134,7 +126,6 @@
       },
       "block_order": [
         "text_pH8E7H",
-        "links",
         "text_zNi6Gq",
         "text",
         "newsletter"
