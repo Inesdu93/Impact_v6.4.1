@@ -90,14 +90,6 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "text_pH8E7H": {
-          "type": "text",
-          "settings": {
-            "title": "About our store",
-            "content": "<p>Collection<br/>About Us<br/>Contact<br/></p>",
-            "enable_follow_on_shop": true
-          }
-        },
         "text_zNi6Gq": {
           "type": "text",
           "settings": {
@@ -114,6 +106,14 @@
             "enable_follow_on_shop": true
           }
         },
+        "links_PhbyBp": {
+          "type": "links",
+          "settings": {
+            "menu": "footer",
+            "show_menu_title": true,
+            "menu_title": ""
+          }
+        },
         "newsletter": {
           "type": "newsletter",
           "settings": {
@@ -125,9 +125,9 @@
         }
       },
       "block_order": [
-        "text_pH8E7H",
         "text_zNi6Gq",
         "text",
+        "links_PhbyBp",
         "newsletter"
       ],
       "settings": {
