@@ -124,6 +124,7 @@
         "1664424230c4756b0e-0",
         "1664424230c4756b0e-2"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
@@ -243,8 +244,8 @@
       "type": "scrolling-text",
       "settings": {
         "full_width": true,
-        "text": "Promotion text",
-        "text_size": "large",
+        "text": "LIVRAISON EN ALGERIE ET EN FRANCE",
+        "text_size": "xsmall",
         "text_style": "fill",
         "scrolling_mode": "auto",
         "scrolling_speed": 5,
@@ -881,10 +882,10 @@
     "rich_text_War6pq",
     "image-with-text-overlay",
     "image-link-blocks",
-    "scrolling-text",
     "collection-list",
     "featured-collection",
     "media-grid",
+    "scrolling-text",
     "before-after-image",
     "press",
     "hot-spots",
