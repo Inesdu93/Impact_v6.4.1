@@ -44,6 +44,7 @@
       "block_order": [
         "image_dpAzkE"
       ],
+      "disabled": true,
       "name": "Media with text",
       "settings": {
         "full_width": false,
@@ -101,6 +102,7 @@
         "richtext_tybgCm",
         "button_AGQLnw"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "full_width": true,
