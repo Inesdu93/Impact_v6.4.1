@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "content_width": "80ch"
       }
@@ -22,17 +23,17 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/EVENTEX.png",
-            "media_width": 40,
+            "media_width": 35,
             "media_position": "start",
             "text_position": "place-self-center text-center",
             "icon": "none",
-            "icon_width": 48,
+            "icon_width": 24,
             "subheading": "",
-            "title": "Over 40 Years of Expertise: A Legacy of Uniqueness in Every Bottle",
-            "content": "<p><br/>At the heart of our exclusive perfume brand lies more than just fragrance — it is the embodiment of a legacy forged over 40 years of unmatched expertise and dedication to the craft of perfumery. <br/><br/>Each creation carries with it the essence of timeless craftsmanship, passed down through generations and refined over decades.<br/><br/><br/>More than a scent, each bottle is a testament to patience, precision, and passion.</p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#ededed",
+            "title": "",
+            "content": "<h4>Private Showroom Experience</h4><p>Mounia Paris welcomes you to its private showroom, just steps away from the Champs-Élysées.</p><p>A discreet and elegant space where you can discover the full collection in an intimate setting.</p><p>Visits by appointment only.</p>",
+            "link_text": "Schedule an Appointment",
+            "link_url": "https://l.instagram.com/?u=https%3A%2F%2Fwa.me%2Fmessage%2FT673ZPUV64T2L1%3Ffbclid%3DPAZXh0bgNhZW0CMTEAAaf7Tc7PP4b6eoX76QFGxhMllju9mhePCLJ5xPOptkkqgj0GAkjTkF6XTqcFBg_aem_-fvH0w-NL2OT9j2wFzwpdA&e=AT01amTd69uoD147xOJzMDP0k_6RFvtsU7TWX86O-hdyzhJ7UMdj7U0PYL_I-EIxgZuvNLaCsRO0pvnfzHa-HtMuhoiirA60dqnExi6J2y3SqBRpYbLtHGs",
+            "background": "#ffffff",
             "background_gradient": "",
             "text_color": "#383535",
             "text_gradient": "",
