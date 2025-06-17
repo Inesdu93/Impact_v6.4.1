@@ -102,6 +102,7 @@
         "richtext_tybgCm",
         "button_AGQLnw"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "full_width": true,
@@ -111,11 +112,65 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "faq_7khrzN": {
+      "type": "faq",
+      "blocks": {
+        "item_BMbgmA": {
+          "type": "item",
+          "settings": {
+            "title": "Where is the showroom located?",
+            "content": "<p>Our private showroom is located near the Champs-Élysées in Paris. The exact address will be shared upon confirmation of your appointment.</p><p></p>"
+          }
+        },
+        "item_LJ8aDw": {
+          "type": "item",
+          "settings": {
+            "title": "Is there a purchase obligation?",
+            "content": "<p>There is no obligation to make a purchase during your visit. Our goal is to offer a moment of discovery and inspiration.</p><p></p>"
+          }
+        },
+        "item_4mMp6b": {
+          "type": "item",
+          "settings": {
+            "title": "Can I bring someone with me?",
+            "content": "<p>Yes, you may bring a guest. Please let us know in advance so we can prepare accordingly.</p><p></p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_BMbgmA",
+        "item_LJ8aDw",
+        "item_4mMp6b"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "full_width": true,
+        "subheading": "Showroom  Frequently Asked Questions",
+        "title": "FAQ",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "For any further questions, feel free to contact us at contact@mouniasales.com.",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
     }
   },
   "order": [
     "main",
     "media_with_text_nFzgHJ",
-    "rich_text_tkki8e"
+    "rich_text_tkki8e",
+    "faq_7khrzN"
   ]
 }
