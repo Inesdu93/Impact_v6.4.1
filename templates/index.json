@@ -655,6 +655,82 @@
         "product_card_mobile_text_color": "",
         "background_dots": "#ffffff"
       }
+    },
+    "image_link_blocks_tfAPnL": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "item_KT3PpT": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/eeeeee.png",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "shopify://products/a8",
+            "background": "",
+            "text_color": "#383535",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_cVVmTL": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_dVffCG": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_ATRxhq": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item_KT3PpT",
+        "item_cVVmTL",
+        "item_dVffCG",
+        "item_ATRxhq"
+      ],
+      "disabled": true,
+      "name": "Image link blocks",
+      "settings": {
+        "full_width": false,
+        "block_size": "medium",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
     }
   },
   "order": [
@@ -671,6 +747,7 @@
     "multiple-images-with-text",
     "multiple_images_with_text_cfFAzV",
     "faq",
-    "shop_the_look_Dc8Uyj"
+    "shop_the_look_Dc8Uyj",
+    "image_link_blocks_tfAPnL"
   ]
 }
