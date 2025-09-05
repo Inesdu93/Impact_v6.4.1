@@ -739,19 +739,19 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Cream_and_Brown_Photographic_Beauty_Site_Launch_Website.png",
-            "content_max_width": 780,
+            "content_max_width": 440,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
             "title": "Géode paris",
-            "heading_tag": "h0",
+            "heading_tag": "h1",
             "button_text": "View the collection",
             "button_link": "shopify://collections/geode-paris",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_color": "#383535",
+            "overlay_opacity": 0,
             "background": "",
             "background_gradient": ""
           }
