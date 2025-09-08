@@ -70,67 +70,46 @@
                 {%- endfor -%}
               </tbody>
             </table>
-
-            {%- if section.settings.show_shipping_estimator and cart.requires_shipping -%}
-              {%- assign accordion_title = 'cart.shipping_estimator.estimate_shipping' | t -%}
-              {%- capture accordion_content -%}{%- render 'shipping-estimator' -%}{%- endcapture -%}
-              {%- render 'accordion', title: accordion_title, icon: 'picto-box', content: accordion_content, size: 'lg' -%}
-            {%- endif -%}
           </div>
 
           <safe-sticky class="cart-order__recap v-stack gap-6">
             <form action="{{ routes.cart_url }}" method="POST" class="cart-form rounded">
-              {%- for block in section.blocks -%}
-                {%- case block.type -%}
-                  {%- when '@app' -%}
-                    {%- render block -%}
+              
+              <!-- Résumé commande -->
+              <div class="cart-form__totals v-stack gap-2">
+                <div class="h-stack gap-4 justify-between">
+                  <span class="text-subdued">{{ 'cart.general.subtotal' | t }}</span>
+                  <span class="text-subdued">{{ cart.items_subtotal_price | money }}</span>
+                </div>
 
-                  {%- when 'totals' -%}
-                    <div class="cart-form__totals v-stack gap-2" {{ block.shopify_attributes }}>
-                      <div class="h-stack gap-4 justify-between">
-                        <span class="text-subdued">{{ 'cart.general.subtotal' | t }}</span>
-                        <span class="text-subdued">{{ cart.items_subtotal_price | money }}</span>
-                      </div>
-
-                      {% for discount_application in cart.cart_level_discount_applications %}
-                        <div class="h-stack gap-4 justify-between">
-                          <div class="badge">
-                            {%- render 'icon' with 'discount' -%} {{- discount_application.title -}}
-                          </div>
-                          <span class="text-subdued">-{{ discount_application.total_allocated_amount | money }}</span>
-                        </div>
-                      {% endfor %}
-
-                      <div class="h-stack gap-4 justify-between">
-                        <span class="h5">{{ 'cart.general.total' | t }}</span>
-                        <span class="h5">{{- cart.total_price | money_with_currency -}}</span>
-                      </div>
+                {% for discount_application in cart.cart_level_discount_applications %}
+                  <div class="h-stack gap-4 justify-between">
+                    <div class="badge">
+                      {%- render 'icon' with 'discount' -%} {{- discount_application.title -}}
                     </div>
+                    <span class="text-subdued">-{{ discount_application.total_allocated_amount | money }}</span>
+                  </div>
+                {% endfor %}
 
-                  {%- when 'cart_note' -%}
-                    <!-- Champ personnalisé bilingue -->
-                    <cart-note class="cart-form__note block" {{ block.shopify_attributes }}>
-                      {%- render 'input', 
-                        name: 'note', 
-                        multiline: 3, 
-                        label: "Questions ou recommandations (ex. emballage cadeau, notes de livraison) / Questions or special requests (e.g. gift wrapping, delivery notes, recommendations)", 
-                        value: cart.note, 
-                        maxlength: block.settings.maxlength 
-                      -%}
-                    </cart-note>
+                <div class="h-stack gap-4 justify-between">
+                  <span class="h5">{{ 'cart.general.total' | t }}</span>
+                  <span class="h5">{{- cart.total_price | money_with_currency -}}</span>
+                </div>
+              </div>
 
-                  {%- when 'text' -%}
-                    {%- if block.settings.content != blank -%}
-                      <div class="prose text-subdued" {{ block.shopify_attributes }}>
-                        {{- block.settings.content -}}
-                      </div>
-                    {%- endif -%}
+              <!-- Champ personnalisé pour questions/recommandations -->
+              <cart-note class="cart-form__note block">
+                {%- render 'input', 
+                  name: 'note', 
+                  multiline: 3, 
+                  label: "Questions ou recommandations (ex. emballage cadeau, notes de livraison) / Questions or special requests (e.g. gift wrapping, delivery notes, recommendations)", 
+                  value: cart.note 
+                -%}
+              </cart-note>
 
-                  {%- when 'checkout_button' -%}
-                    {%- assign checkout_button = 'cart.general.checkout' | t -%}
-                    {%- render 'button', type: 'submit', icon: 'picto-lock', content: checkout_button, size: 'xl', name: 'checkout', stretch: true, block: block -%}
-                {%- endcase -%}
-              {%- endfor -%}
+              <!-- Bouton Checkout -->
+              {%- assign checkout_button = 'cart.general.checkout' | t -%}
+              {%- render 'button', type: 'submit', icon: 'picto-lock', content: checkout_button, size: 'xl', name: 'checkout', stretch: true -%}
             </form>
 
             {%- if section.settings.show_payment_icons and shop.enabled_payment_types.size > 0 -%}
