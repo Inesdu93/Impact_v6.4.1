@@ -97,14 +97,18 @@
                 </div>
               </div>
 
-              <!-- Champ personnalisé pour questions/recommandations -->
+              <!-- Champ personnalisé propre -->
               <cart-note class="cart-form__note block">
-                {%- render 'input', 
-                  name: 'note', 
-                  multiline: 3, 
-                  label: "Questions ou recommandations (ex. emballage cadeau, notes de livraison) / Questions or special requests (e.g. gift wrapping, delivery notes, recommendations)", 
-                  value: cart.note 
-                -%}
+                <label for="cart-note" class="block mb-2 text-sm font-medium">
+                  Questions ou recommandations (ex. emballage cadeau, notes de livraison) / 
+                  Questions or special requests (e.g. gift wrapping, delivery notes, recommendations)
+                </label>
+                <textarea 
+                  id="cart-note" 
+                  name="note" 
+                  rows="3" 
+                  class="w-full border border-gray-300 rounded-md p-2"
+                >{{ cart.note }}</textarea>
               </cart-note>
 
               <!-- Bouton Checkout -->
@@ -128,3 +132,4 @@
     </div>
   {%- endif -%}
 </div>
+
