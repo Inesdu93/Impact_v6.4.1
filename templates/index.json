@@ -778,17 +778,17 @@
     },
     "175926290636d66f3c": {
       "type": "apps",
-      "blocks": {
-        "tabby_pay_later_cart_no_rerender_cCLpN9": {
-          "type": "shopify://apps/tabby-pay-later/blocks/cart-no-rerender/b31c2495-41fc-4b20-9fc7-8cb2e9dd9a95",
-          "settings": {
-            "no_price_display": true
-          }
-        }
-      },
-      "block_order": [
-        "tabby_pay_later_cart_no_rerender_cCLpN9"
-      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "17592630234aafd5c8": {
+      "type": "apps",
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
@@ -816,6 +816,7 @@
     "shop_the_look_Dc8Uyj",
     "image_link_blocks_tfAPnL",
     "slideshow_rJrWwX",
-    "175926290636d66f3c"
+    "175926290636d66f3c",
+    "17592630234aafd5c8"
   ]
 }
