@@ -32,6 +32,12 @@
             "show_taxes_notice": false
           }
         },
+        "tabby_pay_later_pdp_final_T6LNFp": {
+          "type": "shopify://apps/tabby-pay-later/blocks/pdp-final/b31c2495-41fc-4b20-9fc7-8cb2e9dd9a95",
+          "settings": {
+            "no_price_display": true
+          }
+        },
         "rating": {
           "type": "rating",
           "settings": {
@@ -86,6 +92,7 @@
         "title",
         "badges",
         "price",
+        "tabby_pay_later_pdp_final_T6LNFp",
         "rating",
         "payment_terms",
         "separator",
@@ -110,19 +117,6 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
-      }
-    },
-    "custom_liquid_dnLJNq": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "{% render 'tabby-installments'%}",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
       }
     },
     "related-products": {
@@ -157,12 +151,23 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "17592626850e3e8447": {
+      "type": "apps",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
     "main",
-    "custom_liquid_dnLJNq",
     "related-products",
-    "1730104165e01a34cb"
+    "1730104165e01a34cb",
+    "17592626850e3e8447"
   ]
 }
