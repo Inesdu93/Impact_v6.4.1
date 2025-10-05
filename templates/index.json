@@ -797,6 +797,37 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "multiple_images_with_text_pHFtmY": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_fPh4EA": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/PHOTO-2025-04-20-23-21-31_8.jpg",
+            "image_rotation_degrees": -2,
+            "subheading": "Discover",
+            "title": "Géode Paris",
+            "content": "<p>Géode Paris is a crystal house that merges artisanal craftsmanship with contemporary modernity, offering exceptional pieces that reflect the timeless brilliance of crystal. </p><p>Each creation embodies precision, elegance, and sophistication, carrying forward a heritage refined through generations.</p>",
+            "button_url": "shopify://collections/geode",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_fPh4EA"
+      ],
+      "name": "Multiple images with text",
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
     }
   },
   "order": [
@@ -817,6 +848,7 @@
     "image_link_blocks_tfAPnL",
     "slideshow_rJrWwX",
     "175926290636d66f3c",
-    "17592630234aafd5c8"
+    "17592630234aafd5c8",
+    "multiple_images_with_text_pHFtmY"
   ]
 }
