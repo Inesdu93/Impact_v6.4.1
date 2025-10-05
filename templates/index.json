@@ -804,7 +804,7 @@
         "item_fPh4EA": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/PHOTO-2025-04-20-23-21-31_8.jpg",
+            "image": "shopify://shop_images/Perfumefontain22.jpg",
             "image_rotation_degrees": -2,
             "subheading": "Discover",
             "title": "Géode Paris",
@@ -834,6 +834,7 @@
     "slideshow",
     "scrolling_text_gypXDK",
     "rich_text_BdkTj7",
+    "multiple_images_with_text_pHFtmY",
     "images_with_text_scrolling_HRXDrw",
     "collection-list",
     "featured-collection",
@@ -848,7 +849,6 @@
     "image_link_blocks_tfAPnL",
     "slideshow_rJrWwX",
     "175926290636d66f3c",
-    "17592630234aafd5c8",
-    "multiple_images_with_text_pHFtmY"
+    "17592630234aafd5c8"
   ]
 }
