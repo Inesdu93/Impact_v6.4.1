@@ -52,11 +52,10 @@
     },
     "scrolling_text_gypXDK": {
       "type": "scrolling-text",
-      "disabled": true,
       "name": "Scrolling text",
       "settings": {
         "full_width": true,
-        "text": "Enjoy 20% off the entire site with the code MOUNIAEXCLUSIVE",
+        "text": "🇸🇦 Jaak Winter – Riyadh | Join us from November 5th to 9th, 2025 at Jax District",
         "text_size": "xsmall",
         "text_style": "fill",
         "scrolling_mode": "auto",
