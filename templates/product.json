@@ -38,6 +38,12 @@
             "no_price_display": true
           }
         },
+        "liquid_FNkr8d": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% render 'tamara' %}"
+          }
+        },
         "rating": {
           "type": "rating",
           "settings": {
@@ -93,6 +99,7 @@
         "badges",
         "price",
         "tabby_pay_later_pdp_final_T6LNFp",
+        "liquid_FNkr8d",
         "rating",
         "payment_terms",
         "separator",
