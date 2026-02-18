@@ -52,6 +52,7 @@
     },
     "scrolling_text_gypXDK": {
       "type": "scrolling-text",
+      "disabled": true,
       "name": "Scrolling text",
       "settings": {
         "full_width": true,
