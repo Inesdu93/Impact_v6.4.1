@@ -52,11 +52,10 @@
     },
     "scrolling_text_gypXDK": {
       "type": "scrolling-text",
-      "disabled": true,
       "name": "Scrolling text",
       "settings": {
         "full_width": true,
-        "text": "Join us · 🇸🇦 Dakakeen Al Khair Exhibition 2026 | Saraj Venue, Riyadh · February 4–8",
+        "text": "Ramadan Kareem 🌙 Wishing you a month of grace, reflection, and divine abundance.",
         "text_size": "xsmall",
         "text_style": "fill",
         "scrolling_mode": "auto",
