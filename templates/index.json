@@ -15,7 +15,7 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PHOTO-2025-01-19-17-44-22.jpg",
+            "image": "shopify://shop_images/PHOTO-2025-10-30-14-51-01_3.jpg",
             "content_max_width": 1200,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -27,8 +27,8 @@
             "text_color": "#ffffff",
             "button_background": "rgba(0,0,0,0)",
             "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 29,
+            "overlay_color": "#707070",
+            "overlay_opacity": 0,
             "background": "",
             "background_gradient": ""
           }
@@ -64,6 +64,37 @@
         "background_gradient": "",
         "text_color": "",
         "text_gradient": ""
+      }
+    },
+    "multiple_images_with_text_y9hb76": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_XaMtBc": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/04-08_SEPT._2025_-_PARIS_NORD_VILLEPINTE.png",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "Mounia Paris comes to you after iftar",
+            "content": "<h6>After Iftar, immerse yourself in a unique perfume experience.<br/><br/>Our team will visit you at home to introduce our carefully curated perfume collection.</h6><h6>Take the time to explore each fragrance, discover the stories behind the scents, and find the perfect perfume that speaks to you.<br/></h6>",
+            "button_url": "https://api.whatsapp.com/message/T673ZPUV64T2L1?autoload=1&app_absent=0",
+            "button_text": "Now available in the UAE and Qatar"
+          }
+        }
+      },
+      "block_order": [
+        "item_XaMtBc"
+      ],
+      "name": "Multiple images with text",
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
       }
     },
     "rich_text_BdkTj7": {
@@ -167,37 +198,6 @@
         "text_color": "",
         "heading_color": "",
         "heading_gradient": ""
-      }
-    },
-    "multiple_images_with_text_y9hb76": {
-      "type": "multiple-images-with-text",
-      "blocks": {
-        "item_XaMtBc": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/04-08_SEPT._2025_-_PARIS_NORD_VILLEPINTE.png",
-            "image_rotation_degrees": -2,
-            "subheading": "",
-            "title": "Mounia Paris comes to you after iftar",
-            "content": "<h6>After Iftar, immerse yourself in a unique perfume experience.<br/><br/>Our team will visit you at home to introduce our carefully curated perfume collection.</h6><h6>Take the time to explore each fragrance, discover the stories behind the scents, and find the perfect perfume that speaks to you.<br/></h6>",
-            "button_url": "https://api.whatsapp.com/message/T673ZPUV64T2L1?autoload=1&app_absent=0",
-            "button_text": "Now available in the UAE and Qatar"
-          }
-        }
-      },
-      "block_order": [
-        "item_XaMtBc"
-      ],
-      "name": "Multiple images with text",
-      "settings": {
-        "full_width": true,
-        "images_layout": "stacked",
-        "collage_images_alignment": "middle",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
       }
     },
     "collection-list": {
