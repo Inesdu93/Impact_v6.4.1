@@ -85,6 +85,7 @@
       "block_order": [
         "item_XaMtBc"
       ],
+      "disabled": true,
       "name": "Multiple images with text",
       "settings": {
         "full_width": true,
